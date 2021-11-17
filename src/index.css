@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mainBtn {
+        @apply inline-block px-20 py-3 rounded-full font-bold text-xl text-white tracking-widest duration-300 shadow-btnPurple bg-gradient-to-b from-[#B951FF] to-[#6D3594] hover:text-mainColor-500 hover:from-[#F7E2FE] hover:to-[#E8A1FF] hover:shadow-btnPurpleH;
+    }
+    .faqIconBox {
+        @apply w-10 md:w-12 h-10 md:h-12 flex-none rounded-full text-center;
+    }
+    .faqIconSVG {
+        @apply inline-block mt-[7px] md:mt-[11px] w-5 md:w-6;
+    }
+    .faqChatbox {
+        @apply p-3 md:p-6 w-full max-w-[900px] rounded-2xl;
+    }
+    .contactBtn {
+        @apply inline-block px-4 py-1 rounded-full text-white align-bottom bg-[#8f41c4] hover:bg-[#af67df];
+    }
+}
